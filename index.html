@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MUDDY TECH!</title>
+        <link rel="favicon" href="fav.png" alt="webage favicon">
+    
+    <style>
+        body{
+            background: url('tech.jpg') no-repeat center center;
+            background-size: cover;
+            position: reltive;
+            color: white;
+            flex-direction:column;
+            display: flex;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            margin: 0;
+            
+        }
+        body::before{
+            content: "";
+            position: absolute;
+            top:0;left:0;
+            width:100%; height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index:-1;
+        }
+        .nav-bar{
+            background-color: navy;
+            border: none;
+            border-radius:30px;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+        .web-icon{
+            font-weight: bold;
+            font-size: 20px;
+            margin-left: 30px;
+        }
+        .nav-links{
+            list-style-type: none;
+            display: flex;
+
+        }
+        .nav-links ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 50px;
+            
+        }
+        .nav-links ul li{
+            margin-right: 50px;
+            color: white;
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .wrapper{
+            flex:1;
+            display: flex;
+            align-items: center;
+        }
+        .content-container{
+            padding: 20px;
+            max-width: 400px;
+            margin-left: 50px;
+            text-align: left;
+            line-height: 27px;
+            
+        }
+        .image{
+            margin-left: 20em;
+            margin-right:10em;
+        }
+        .circle-image{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+        }
+        
+
+    </style>
+    </head>
+    <body>
+        <header>
+            <nav class="nav-bar">
+                <div class="web-icon">
+                    <p class="name">MUDDY.Tech</p>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#home.html">Home</a></li>
+                        <li><a href="#tech.html">Tech</a></li>
+                        <li><a href="#about.html">About</a></li>
+                        <li><a href="#contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="wrapper">
+                <div class="content-container">
+                    <h2>MUDDY TECH</h2>
+                    <p><h4>Welcome to Muddy Tech</h4>
+                        At Muddy Tech, we explore technology in a simple, practical, 
+                        and creative way. Our goal is to make tech less confusing and more 
+                        useful for everyday life. From coding and cybersecurity to gadgets
+                         and digital tools, we break down complex ideas into 
+                         easy-to-understand content.
+
+                        Whether you’re a beginner or just curious, Muddy Tech is 
+                        here to guide you through the digital world — step by step, 
+                        without the jargon.
+                        Discover. Learn. Grow. With Muddy Tech.
+
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="img.png" alt="blog photo" class="circle-image">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="social links">
+
+            </div>
+        </footer>
+    </body>
+</html>
